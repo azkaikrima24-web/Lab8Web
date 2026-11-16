@@ -1,0 +1,67 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fffbfb;
+    margin: 0;
+    padding: 30px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.main {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background: #eeeeee;
+}
+
+td img {
+    width: 80px;
+}
+
+.input {
+    margin-bottom: 15px;
+}
+
+.input label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input input,
+.input select {
+    width: 100%;
+    padding: 10px;
+}
+
+.submit input {
+    padding: 10px 20px;
+    cursor: pointer;
+}
